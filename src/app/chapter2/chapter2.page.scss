@@ -1,16 +1,23 @@
 ion-header {
     text-align: center;
-    background-color: rgb(215, 219, 221);
 }
-
+.prev {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+.next {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+ion-title {
+    padding: 10px;
+}
 p {
     font-family: "Times New Roman", Times, serif;
 }
-
-.page {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
+ion-footer {
     color: rgb(77, 75, 75);
     text-align: center;
 }

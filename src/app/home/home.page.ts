@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { NavController } from '@ionic/angular';
-import { TocPage } from '../toc/toc.page';
-import { Chapter1Page } from '../chapter1/chapter1.page';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +10,7 @@ export class HomePage {
 
   constructor(private router: Router) { }
 
+  // Go to Table of Contents
   launchToc() {
     this.router.navigateByUrl('/toc');
   }

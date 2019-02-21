@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-chapter1',
-  templateUrl: './chapter1.page.html',
-  styleUrls: ['./chapter1.page.scss'],
+  selector: 'app-chap1pt3',
+  templateUrl: './chap1pt3.page.html',
+  styleUrls: ['./chap1pt3.page.scss'],
 })
-export class Chapter1Page {
+export class Chap1pt3Page {
 
   constructor(private router: Router) { }
 
@@ -15,8 +15,13 @@ export class Chapter1Page {
     this.router.navigateByUrl('/toc');
   }
 
-  // Next route
+  // Back route
   launchChap1pt2() {
     this.router.navigateByUrl('/chap1pt2');
+  }
+
+  // Next route
+  launchChapter2() {
+  this.router.navigateByUrl('/chapter2');
   }
 }

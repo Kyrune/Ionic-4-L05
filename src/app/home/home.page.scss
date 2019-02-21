@@ -3,16 +3,22 @@ ion-content {
     text-align: center;
 }
 
-.c-card-home {
+ion-card-content {
     background-image: url("../../assets/images/lava.jpg");
     background-color: #292c2f;
     color: ghostwhite;
 }
 
-.title-home {
+ion-card-title {
     color: ghostwhite;
-    font-size: 4em;
-    padding: 15px;
+    font-size: 2.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 520px;
+    margin-left: 520px;
+    margin-bottom: 15px;
+    background-color: rgba(41, 44, 47, 0.8);
+    border-radius: 15px;
 }
 
 ion-image {

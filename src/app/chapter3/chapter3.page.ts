@@ -8,7 +8,20 @@ import { Router } from '@angular/router';
 })
 export class Chapter3Page {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
+  // Go to Table of Contents
+  launchToc() {
+    this.router.navigateByUrl('/toc');
+  }
 
+  // Back route
+  launchChap2pt3() {
+    this.router.navigateByUrl('/chap2pt3');
+  }
+
+  // Next route
+  launchChap3pt2() {
+    this.router.navigateByUrl('/chap3pt2');
+  }
 }

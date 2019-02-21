@@ -1,13 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Table of Contents</ion-title>
+    <ion-button class="prev" (click)="launchHome()" color="dark" size="small">Back</ion-button>
+    <ion-button class="next" (click)="launchChapter1()" color="dark" size="small">Next</ion-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  <h5 (click)="launchHome()">Home Page</h5>
   <h5 (click)="launchChapter1()">Chapter 1</h5>
   <h5 (click)="launchChapter2()">Chapter 2</h5>
   <h5 (click)="launchChapter3()">Chapter 3</h5>
-  <p>Page 1</p>
+    <p>
+      About<br>
+      The contents of this page-turner project are used to take up text space. 
+      It’s an early draft intro to a story I’m working on, and is far from polished. Enjoy!
+    </p>
+    <h6>Author<br>Maria J. Ziemer</h6>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <p>Page 1</p>
+  </ion-toolbar>
+</ion-footer>

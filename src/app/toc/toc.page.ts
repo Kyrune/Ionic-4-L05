@@ -10,23 +10,23 @@ export class TocPage {
 
   constructor(private router: Router) { }
 
+  // Go to Home/front page
   launchHome() {
     this.router.navigateByUrl('/home');
   }
 
+  // Go to Chapter 1
   launchChapter1() {
     this.router.navigateByUrl('/chapter1');
   }
 
+  // Go to Chapter 2
   launchChapter2() {
     this.router.navigateByUrl('/chapter2');
   }
 
+  // Go to Chapter 3
   launchChapter3() {
     this.router.navigateByUrl('/chapter3');
-  }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TocPage');
   }
 }
