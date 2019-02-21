@@ -1,12 +1,19 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+  <ion-nav>
+    <ion-title>Home Page</ion-title>
+  </ion-nav>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content (click)="launchToc()" padding>
+  <ion-card>
+    <ion-card-content class="c-card-home">
+      <ion-card-title class="title-home">
+        Kierr'rocka
+      </ion-card-title>
+      <ion-img width="324.5" height="207.25" src="../../assets/images/Kierr.jpg"></ion-img>
+    </ion-card-content>
+  </ion-card>
+  <!-- <ion-item [routerLink]="'/toc'" routerDirection="forward">Table of Contents</ion-item> -->
+  <!-- <button ion-button full="true" (click)="launchToc()">Table of Contents</button> -->
+  <!-- <ion-button color="dark" [routerLink]="['/toc']">Table of Contents</ion-button> -->
 </ion-content>

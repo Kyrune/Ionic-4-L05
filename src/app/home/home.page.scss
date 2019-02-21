@@ -1,1 +1,22 @@
 
+ion-content {
+    text-align: center;
+}
+
+.c-card-home {
+    background-image: url("../../assets/images/lava.jpg");
+    background-color: #292c2f;
+    color: ghostwhite;
+}
+
+.title-home {
+    color: ghostwhite;
+    font-size: 4em;
+    padding: 15px;
+}
+
+ion-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
