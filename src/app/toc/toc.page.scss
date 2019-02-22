@@ -3,8 +3,8 @@ ion-header {
 }
 .prev {
     position: absolute;
-    left: 10px;
     top: 10px;
+    left: 10px;
 }
 .next {
     position: absolute;
@@ -15,8 +15,8 @@ ion-content {
     text-align: center;
 }
 h5:hover {
-    color: #607d8b;
     background-color: #ddd;
+    color: #607d8b;
 }
 h5 {
     padding-top: 10px;
